@@ -9,17 +9,17 @@ import (
 	"path/filepath"
 	"testing"
 
-	"allaboutapps.dev/aw/go-starter/internal/api"
-	"allaboutapps.dev/aw/go-starter/internal/test"
-	"allaboutapps.dev/aw/go-starter/internal/types"
-	"allaboutapps.dev/aw/go-starter/internal/types/auth"
-	"allaboutapps.dev/aw/go-starter/internal/util"
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/strfmt/conv"
 	"github.com/go-openapi/swag"
 	"github.com/labstack/echo/v4"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"go-starter-example/internal/api"
+	"go-starter-example/internal/test"
+	"go-starter-example/internal/types"
+	"go-starter-example/internal/types/auth"
+	"go-starter-example/internal/util"
 )
 
 func TestBindAndValidateSuccess(t *testing.T) {

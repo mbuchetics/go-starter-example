@@ -7,11 +7,11 @@ import (
 	"sync"
 	"testing"
 
-	pUtil "allaboutapps.dev/aw/go-starter/internal/util"
 	"github.com/allaboutapps/integresql-client-go"
 	"github.com/allaboutapps/integresql-client-go/pkg/util"
 	migrate "github.com/rubenv/sql-migrate"
 	"github.com/volatiletech/sqlboiler/v4/boil"
+	pUtil "go-starter-example/internal/util"
 )
 
 var (

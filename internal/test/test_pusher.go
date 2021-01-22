@@ -4,8 +4,8 @@ import (
 	"database/sql"
 	"testing"
 
-	"allaboutapps.dev/aw/go-starter/internal/push"
-	"allaboutapps.dev/aw/go-starter/internal/push/provider"
+	"go-starter-example/internal/push"
+	"go-starter-example/internal/push/provider"
 )
 
 func WithTestPusher(t *testing.T, closure func(p *push.Service, db *sql.DB)) {

@@ -3,8 +3,8 @@ package common
 import (
 	"path/filepath"
 
-	"allaboutapps.dev/aw/go-starter/internal/api"
 	"github.com/labstack/echo/v4"
+	"go-starter-example/internal/api"
 )
 
 func GetSwaggerRoute(s *api.Server) *echo.Route {

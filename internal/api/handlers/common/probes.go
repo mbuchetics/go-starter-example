@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"allaboutapps.dev/aw/go-starter/internal/util"
+	"go-starter-example/internal/util"
 	"golang.org/x/sys/unix"
 )
 

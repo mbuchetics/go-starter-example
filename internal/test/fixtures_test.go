@@ -5,11 +5,11 @@ import (
 	"database/sql"
 	"testing"
 
-	"allaboutapps.dev/aw/go-starter/internal/models"
-	"allaboutapps.dev/aw/go-starter/internal/test"
 	_ "github.com/lib/pq"
 	"github.com/volatiletech/null/v8"
 	"github.com/volatiletech/sqlboiler/v4/boil"
+	"go-starter-example/internal/models"
+	"go-starter-example/internal/test"
 )
 
 func TestFixturesReload(t *testing.T) {

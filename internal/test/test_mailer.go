@@ -3,9 +3,9 @@ package test
 import (
 	"testing"
 
-	"allaboutapps.dev/aw/go-starter/internal/config"
-	"allaboutapps.dev/aw/go-starter/internal/mailer"
-	"allaboutapps.dev/aw/go-starter/internal/mailer/transport"
+	"go-starter-example/internal/config"
+	"go-starter-example/internal/mailer"
+	"go-starter-example/internal/mailer/transport"
 )
 
 const (

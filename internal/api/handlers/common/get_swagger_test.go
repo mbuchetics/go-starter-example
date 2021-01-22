@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"testing"
 
-	"allaboutapps.dev/aw/go-starter/internal/api"
-	"allaboutapps.dev/aw/go-starter/internal/test"
 	"github.com/stretchr/testify/require"
+	"go-starter-example/internal/api"
+	"go-starter-example/internal/test"
 )
 
 func TestSwaggerYAMLRetrieval(t *testing.T) {

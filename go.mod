@@ -1,4 +1,4 @@
-module allaboutapps.dev/aw/go-starter
+module go-starter-example
 
 go 1.15
 

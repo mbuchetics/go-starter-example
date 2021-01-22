@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"os"
 
-	"allaboutapps.dev/aw/go-starter/internal/config"
-	"allaboutapps.dev/aw/go-starter/internal/data"
 	"github.com/spf13/cobra"
 	"github.com/volatiletech/sqlboiler/v4/boil"
+	"go-starter-example/internal/config"
+	"go-starter-example/internal/data"
 )
 
 // seedCmd represents the seed command

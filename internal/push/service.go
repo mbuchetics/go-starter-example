@@ -5,8 +5,8 @@ import (
 	"database/sql"
 	"errors"
 
-	"allaboutapps.dev/aw/go-starter/internal/models"
-	"allaboutapps.dev/aw/go-starter/internal/util"
+	"go-starter-example/internal/models"
+	"go-starter-example/internal/util"
 )
 
 type ProviderType string

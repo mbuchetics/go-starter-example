@@ -4,8 +4,8 @@ import (
 	"database/sql"
 	"testing"
 
-	"allaboutapps.dev/aw/go-starter/internal/test"
 	"github.com/stretchr/testify/require"
+	"go-starter-example/internal/test"
 )
 
 func TestWithTestDatabase(t *testing.T) {

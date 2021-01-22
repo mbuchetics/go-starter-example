@@ -5,9 +5,9 @@ import (
 	"database/sql"
 	"testing"
 
-	"allaboutapps.dev/aw/go-starter/internal/api"
-	"allaboutapps.dev/aw/go-starter/internal/api/router"
-	"allaboutapps.dev/aw/go-starter/internal/config"
+	"go-starter-example/internal/api"
+	"go-starter-example/internal/api/router"
+	"go-starter-example/internal/config"
 )
 
 // Use this utility func to test with an full blown server (default server config)

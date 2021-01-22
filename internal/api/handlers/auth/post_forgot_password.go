@@ -7,14 +7,14 @@ import (
 	"path"
 	"time"
 
-	"allaboutapps.dev/aw/go-starter/internal/api"
-	"allaboutapps.dev/aw/go-starter/internal/models"
-	"allaboutapps.dev/aw/go-starter/internal/types"
-	"allaboutapps.dev/aw/go-starter/internal/util"
-	"allaboutapps.dev/aw/go-starter/internal/util/db"
 	"github.com/labstack/echo/v4"
 	"github.com/volatiletech/null/v8"
 	"github.com/volatiletech/sqlboiler/v4/boil"
+	"go-starter-example/internal/api"
+	"go-starter-example/internal/models"
+	"go-starter-example/internal/types"
+	"go-starter-example/internal/util"
+	"go-starter-example/internal/util/db"
 )
 
 func PostForgotPasswordRoute(s *api.Server) *echo.Route {

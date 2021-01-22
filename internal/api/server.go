@@ -6,13 +6,13 @@ import (
 	"errors"
 	"fmt"
 
-	"allaboutapps.dev/aw/go-starter/internal/config"
-	"allaboutapps.dev/aw/go-starter/internal/mailer"
-	"allaboutapps.dev/aw/go-starter/internal/mailer/transport"
-	"allaboutapps.dev/aw/go-starter/internal/push"
-	"allaboutapps.dev/aw/go-starter/internal/push/provider"
 	"github.com/labstack/echo/v4"
 	"github.com/rs/zerolog/log"
+	"go-starter-example/internal/config"
+	"go-starter-example/internal/mailer"
+	"go-starter-example/internal/mailer/transport"
+	"go-starter-example/internal/push"
+	"go-starter-example/internal/push/provider"
 
 	// Import postgres driver for database/sql package
 	_ "github.com/lib/pq"

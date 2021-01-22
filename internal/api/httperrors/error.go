@@ -5,8 +5,8 @@ import (
 	"sort"
 	"strings"
 
-	"allaboutapps.dev/aw/go-starter/internal/types"
 	"github.com/go-openapi/swag"
+	"go-starter-example/internal/types"
 )
 
 const (

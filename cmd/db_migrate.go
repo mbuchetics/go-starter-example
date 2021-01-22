@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"os"
 
-	"allaboutapps.dev/aw/go-starter/internal/config"
 	migrate "github.com/rubenv/sql-migrate"
 	"github.com/spf13/cobra"
+	"go-starter-example/internal/config"
 )
 
 var migrateCmd = &cobra.Command{

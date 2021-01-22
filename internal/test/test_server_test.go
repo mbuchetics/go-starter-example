@@ -4,13 +4,13 @@ import (
 	"net/http"
 	"testing"
 
-	"allaboutapps.dev/aw/go-starter/internal/api"
-	"allaboutapps.dev/aw/go-starter/internal/test"
-	"allaboutapps.dev/aw/go-starter/internal/util"
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 	"github.com/labstack/echo/v4"
 	"github.com/stretchr/testify/assert"
+	"go-starter-example/internal/api"
+	"go-starter-example/internal/test"
+	"go-starter-example/internal/util"
 )
 
 type TestRequestPayload struct {

@@ -8,11 +8,11 @@ import (
 	"io/ioutil"
 	"path/filepath"
 
-	"allaboutapps.dev/aw/go-starter/internal/config"
-	"allaboutapps.dev/aw/go-starter/internal/mailer/transport"
-	"allaboutapps.dev/aw/go-starter/internal/util"
 	"github.com/jordan-wright/email"
 	"github.com/rs/zerolog/log"
+	"go-starter-example/internal/config"
+	"go-starter-example/internal/mailer/transport"
+	"go-starter-example/internal/util"
 )
 
 var (

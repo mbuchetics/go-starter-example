@@ -3,9 +3,9 @@ package auth
 import (
 	"context"
 
-	"allaboutapps.dev/aw/go-starter/internal/models"
-	"allaboutapps.dev/aw/go-starter/internal/util"
 	"github.com/labstack/echo/v4"
+	"go-starter-example/internal/models"
+	"go-starter-example/internal/util"
 )
 
 // EnrichContextWithCredentials stores the provided credentials in the form of user and access token used for authentication

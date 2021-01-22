@@ -5,18 +5,18 @@ import (
 	"net/http"
 	"time"
 
-	"allaboutapps.dev/aw/go-starter/internal/api"
-	"allaboutapps.dev/aw/go-starter/internal/api/middleware"
-	"allaboutapps.dev/aw/go-starter/internal/models"
-	"allaboutapps.dev/aw/go-starter/internal/types"
-	"allaboutapps.dev/aw/go-starter/internal/util"
-	"allaboutapps.dev/aw/go-starter/internal/util/db"
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/strfmt/conv"
 	"github.com/go-openapi/swag"
 	"github.com/labstack/echo/v4"
 	"github.com/volatiletech/sqlboiler/v4/boil"
 	"github.com/volatiletech/sqlboiler/v4/queries/qm"
+	"go-starter-example/internal/api"
+	"go-starter-example/internal/api/middleware"
+	"go-starter-example/internal/models"
+	"go-starter-example/internal/types"
+	"go-starter-example/internal/util"
+	"go-starter-example/internal/util/db"
 )
 
 func PostRefreshRoute(s *api.Server) *echo.Route {

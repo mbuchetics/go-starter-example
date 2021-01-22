@@ -6,11 +6,11 @@ import (
 	"net/http"
 	"testing"
 
-	"allaboutapps.dev/aw/go-starter/internal/api"
-	"allaboutapps.dev/aw/go-starter/internal/api/httperrors"
-	"allaboutapps.dev/aw/go-starter/internal/api/middleware"
-	"allaboutapps.dev/aw/go-starter/internal/test"
 	"github.com/stretchr/testify/assert"
+	"go-starter-example/internal/api"
+	"go-starter-example/internal/api/httperrors"
+	"go-starter-example/internal/api/middleware"
+	"go-starter-example/internal/test"
 )
 
 func TestPostLogoutSuccess(t *testing.T) {

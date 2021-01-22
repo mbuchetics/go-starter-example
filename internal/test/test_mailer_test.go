@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	"allaboutapps.dev/aw/go-starter/internal/mailer/transport"
-	"allaboutapps.dev/aw/go-starter/internal/test"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"go-starter-example/internal/mailer/transport"
+	"go-starter-example/internal/test"
 )
 
 func TestWithTestMailer(t *testing.T) {

@@ -4,8 +4,8 @@ import (
 	"math"
 	"testing"
 
-	"allaboutapps.dev/aw/go-starter/internal/util"
 	"github.com/stretchr/testify/assert"
+	"go-starter-example/internal/util"
 )
 
 func TestMinAndMapInt(t *testing.T) {

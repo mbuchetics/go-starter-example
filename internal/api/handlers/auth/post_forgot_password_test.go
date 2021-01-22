@@ -6,17 +6,17 @@ import (
 	"net/http"
 	"testing"
 
-	"allaboutapps.dev/aw/go-starter/internal/api"
-	"allaboutapps.dev/aw/go-starter/internal/api/httperrors"
-	"allaboutapps.dev/aw/go-starter/internal/mailer"
-	"allaboutapps.dev/aw/go-starter/internal/mailer/transport"
-	"allaboutapps.dev/aw/go-starter/internal/models"
-	"allaboutapps.dev/aw/go-starter/internal/test"
 	"github.com/jordan-wright/email"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/volatiletech/null/v8"
 	"github.com/volatiletech/sqlboiler/v4/boil"
+	"go-starter-example/internal/api"
+	"go-starter-example/internal/api/httperrors"
+	"go-starter-example/internal/mailer"
+	"go-starter-example/internal/mailer/transport"
+	"go-starter-example/internal/models"
+	"go-starter-example/internal/test"
 )
 
 func getLastSentMail(t *testing.T, m *mailer.Mailer) *email.Email {

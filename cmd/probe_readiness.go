@@ -5,10 +5,10 @@ import (
 	"database/sql"
 	"fmt"
 
-	"allaboutapps.dev/aw/go-starter/internal/api/handlers/common"
-	"allaboutapps.dev/aw/go-starter/internal/config"
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/cobra"
+	"go-starter-example/internal/api/handlers/common"
+	"go-starter-example/internal/config"
 )
 
 // readinessCmd represents the server command

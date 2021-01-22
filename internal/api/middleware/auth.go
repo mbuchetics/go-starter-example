@@ -6,15 +6,15 @@ import (
 	"net/http"
 	"time"
 
-	"allaboutapps.dev/aw/go-starter/internal/api"
-	"allaboutapps.dev/aw/go-starter/internal/api/auth"
-	"allaboutapps.dev/aw/go-starter/internal/api/httperrors"
-	"allaboutapps.dev/aw/go-starter/internal/models"
-	"allaboutapps.dev/aw/go-starter/internal/util"
 	"github.com/go-openapi/strfmt"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 	"github.com/volatiletech/sqlboiler/v4/queries/qm"
+	"go-starter-example/internal/api"
+	"go-starter-example/internal/api/auth"
+	"go-starter-example/internal/api/httperrors"
+	"go-starter-example/internal/models"
+	"go-starter-example/internal/util"
 )
 
 var (

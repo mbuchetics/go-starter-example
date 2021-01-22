@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"allaboutapps.dev/aw/go-starter/internal/util"
 	"github.com/stretchr/testify/assert"
+	"go-starter-example/internal/util"
 )
 
 func TestEnsureDeadline(t *testing.T) {
